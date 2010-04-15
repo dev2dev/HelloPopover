@@ -10,7 +10,7 @@
 
 @implementation HelloPopoverViewController
 
-@synthesize poController = _poController;
+@synthesize popOverController = _poController;
 @synthesize toolbar = _toolbar;
 @synthesize toolbarButton = _toolbarButton;
 @synthesize detailItem = _detailItem;
@@ -44,7 +44,7 @@
 - (void)viewDidUnload {
 	
 	NSLog(@"Hello Popover VC - view Did Unload");
-	self.poController = nil;
+	self.popOverController = nil;
 	
 }
 
@@ -78,7 +78,7 @@
 
 	if (nil != _poController) {
 		
-		if (self.poController.isPopoverVisible) {
+		if (self.popOverController.isPopoverVisible) {
 			
 			NSLog(@"Hello Popover VC - push - Popover Is Visible. Returning ...");
 			return;
@@ -96,11 +96,12 @@
 		popoverContentVC.view = popoverContentView;
 		popoverContentVC.contentSizeForViewInPopover = CGSizeMake(128, 128);
 		
-		self.poController = [[[UIPopoverController alloc] initWithContentViewController:popoverContentVC] autorelease];
+		self.popOverController = [[[UIPopoverController alloc] initWithContentViewController:popoverContentVC] autorelease];
+		self.popOverController.delegate = self;
 	}
 	
 
-	[self.poController presentPopoverFromBarButtonItem:sender permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
+	[self.popOverController presentPopoverFromBarButtonItem:sender permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
 	
 }
 

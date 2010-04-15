@@ -19,7 +19,7 @@
 	
 }
 
-@property(nonatomic,retain)UIPopoverController *poController;
+@property(nonatomic,retain)UIPopoverController *popOverController;
 @property(nonatomic,retain)IBOutlet UIToolbar *toolbar;
 @property(nonatomic,retain)IBOutlet UIBarButtonItem *toolbarButton;
 @property(nonatomic,retain)id detailItem;
