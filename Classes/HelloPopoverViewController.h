@@ -25,7 +25,7 @@
 @property(nonatomic,retain)id detailItem;
 @property(nonatomic,retain)IBOutlet UILabel *detailDescriptionLabel;
 
-- (IBAction)push:(id)sender;
+- (IBAction)deployPopover:(id)sender;
 
 @end
 

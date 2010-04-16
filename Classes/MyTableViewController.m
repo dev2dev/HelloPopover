@@ -16,6 +16,7 @@ enum {
 @synthesize teachingAssistants = _teachingAssistants;
 @synthesize guestLecturers = _guestLecturers;
 @synthesize popoverController = _poController;
+@synthesize detailDescriptionLabel = _detailDescriptionLabel;
 
 #pragma mark -
 #pragma mark My TableView Controller - Lifecycle Methods
@@ -26,6 +27,7 @@ enum {
     [_teachingAssistants	release], _teachingAssistants = nil;
     [_guestLecturers		release], _guestLecturers = nil;
     [_poController			release], _poController = nil;
+    [_detailDescriptionLabel release], _detailDescriptionLabel = nil;
     
     [super dealloc];
 }
@@ -129,7 +131,10 @@ enum {
 //    [alertView show];
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-	
+
+	self.detailDescriptionLabel.text = 
+	[NSString stringWithFormat:@"You Selected %@", [self nameForIndexPath:indexPath]];
+
 	[self.popoverController dismissPopoverAnimated:YES];
 }
 

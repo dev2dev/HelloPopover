@@ -68,24 +68,24 @@
 					<object class="IBUILabel" id="483876647">
 						<reference key="NSNextResponder" ref="647120888"/>
 						<int key="NSvFlags">303</int>
-						<string key="NSFrame">{{20, 487}, {728, 30}}</string>
+						<string key="NSFrame">{{20, 487}, {728, 59}}</string>
 						<reference key="NSSuperview" ref="647120888"/>
-						<object class="NSColor" key="IBUIBackgroundColor">
+						<object class="NSColor" key="IBUIBackgroundColor" id="392888530">
 							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MCAwLjUwMTk2MDgxNCAxAA</bytes>
+							<bytes key="NSRGB">MSAxIDEAA</bytes>
 						</object>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<string key="IBUIText">Detail View Content Goes Here</string>
+						<string key="IBUIText">You Selected Foo.</string>
 						<object class="NSFont" key="IBUIFont">
 							<string key="NSName">HelveticaNeue</string>
-							<double key="NSSize">24</double>
+							<double key="NSSize">48</double>
 							<int key="NSfFlags">16</int>
 						</object>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MSAxIDEAA</bytes>
+							<bytes key="NSRGB">MCAwIDAAA</bytes>
 						</object>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
@@ -95,10 +95,7 @@
 				</object>
 				<string key="NSFrameSize">{768, 1004}</string>
 				<reference key="NSSuperview"/>
-				<object class="NSColor" key="IBUIBackgroundColor">
-					<int key="NSColorSpace">1</int>
-					<bytes key="NSRGB">MCAxIDAuNTAxOTYwODE0AA</bytes>
-				</object>
+				<reference key="IBUIBackgroundColor" ref="392888530"/>
 				<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics">
 					<int key="IBUIStatusBarStyle">2</int>
@@ -143,11 +140,11 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">push:</string>
+						<string key="label">deployPopover:</string>
 						<reference key="source" ref="136097947"/>
 						<reference key="destination" ref="841351856"/>
 					</object>
-					<int key="connectionID">69</int>
+					<int key="connectionID">71</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -242,7 +239,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">70</int>
+			<int key="maxID">71</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -251,7 +248,7 @@
 					<string key="className">HelloPopoverViewController</string>
 					<string key="superclassName">UIViewController</string>
 					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">push:</string>
+						<string key="NS.key.0">deployPopover:</string>
 						<string key="NS.object.0">id</string>
 					</object>
 					<object class="NSMutableDictionary" key="outlets">

@@ -40,21 +40,12 @@
 	
     [super viewDidLoad];
 	
-//	UIView* popoverContentView = [[[UIView alloc] initWithFrame:CGRectMake(0, 0, 128, 128)] autorelease];
-//	
-//	UIViewController* popoverContentVC = [[[UIViewController alloc] init] autorelease];
-//	popoverContentVC.view = popoverContentView;
-//	popoverContentVC.contentSizeForViewInPopover = CGSizeMake(128, 128);
-//	self.popOverController = [[[UIPopoverController alloc] initWithContentViewController:popoverContentVC] autorelease];
-
-	
-	
     MyTableViewController * myTableViewController = [[[MyTableViewController alloc] initWithStyle:UITableViewStylePlain] autorelease];
 	myTableViewController.contentSizeForViewInPopover = CGSizeMake(256, 512);
 
 	self.popoverController = [[[UIPopoverController alloc] initWithContentViewController:myTableViewController] autorelease];
 	myTableViewController.popoverController = self.popoverController;
-
+	myTableViewController.detailDescriptionLabel = self.detailDescriptionLabel;
 	self.popoverController.delegate = self;
 
 }
@@ -77,7 +68,6 @@
 	return YES;
 }
 
-
 - (void)popoverControllerDidDismissPopover:(UIPopoverController *)popoverController {
 	
 	NSLog(@"Hello Popover VC - popover Controller Did Dismiss Popover");
@@ -91,7 +81,7 @@
 	// Release any cached data, images, etc that aren't in use.
 }
 
-- (IBAction)push:(id)sender {
+- (IBAction)deployPopover:(id)sender {
 
 	if (self.popoverController.isPopoverVisible) {
 		
