@@ -11,24 +11,26 @@
 
 @implementation HelloPopoverAppDelegate
 
-@synthesize window;
-@synthesize viewController;
+@synthesize window = _window;
+@synthesize viewController = _viewController;
 
+- (void)dealloc {
+	
+    [_window			release], _window = nil;
+    self.window = nil;
+	
+    [_viewController	release], _viewController = nil;
+	self.viewController = nil;
+	
+    [super dealloc];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
-    // Override point for customization after app launch    
-    [window addSubview:viewController.view];
-    [window makeKeyAndVisible];
+    [self.window addSubview:self.viewController.view];
+    [self.window makeKeyAndVisible];
 
 	return YES;
-}
-
-
-- (void)dealloc {
-    [viewController release];
-    [window release];
-    [super dealloc];
 }
 
 

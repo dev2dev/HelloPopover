@@ -1,0 +1,448 @@
+TMyTableView
+v7
+r0
+t293128898.431125
+cCheck dependencies
+cProcessInfoPlistFile "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app/Info.plist" Info.plist
+cCompileXIB "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/MainWindow.xib"
+cProcessPCH /var/folders/LM/LMUGfh8eEm0fXN3aQR8NPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyTableView_Prefix-dfpemvgvkakmyxaycpcvtxwxveqt/MyTableView_Prefix.pch.gch MyTableView_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/main.o "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/MyTableViewAppDelegate.o "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/Classes/MyTableViewAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/MyTableViewController.o "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/Classes/MyTableViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app/MyTableView" normal i386
+cGenerateDSYMFile "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app.dSYM" "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app/MyTableView"
+cTouch "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
+c000000004BB2373600000000000000EE
+t1269970742
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDC853000000000026EE30
+t1253951571
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDC952000000000027E880
+t1253951826
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDC93F0000000000001355
+t1253951807
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDEE1D0000000000000788
+t1253961245
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDEEE200000000016721E0
+t1253961442
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004BB2373F00000000000000EE
+t1269970751
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/Classes/MyTableViewAppDelegate.h
+c0000000049F79AB5000000000000013E
+t1240963765
+s318
+i<UIKit/UIKit.h>
+
+N/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/Classes/MyTableViewAppDelegate.m
+c000000004AB7D4FF00000000000002F1
+t1253561599
+s753
+i"MyTableViewAppDelegate.h"
+i"MyTableViewController.h"
+
+N/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/Classes/MyTableViewController.h
+c0000000049F79ABC000000000000016F
+t1240963772
+s367
+i<UIKit/UIKit.h>
+
+N/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/Classes/MyTableViewController.m
+c000000004BC893410000000000000CB1
+t1271436097
+s3249
+i"MyTableViewController.h"
+
+N/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/MainWindow.xib
+c0000000049EE3D420000000000001D0F
+t1240350018
+s7439
+
+N/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/MyTableView_Prefix.pch
+c0000000049EE3D4200000000000000BF
+t1240350018
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app
+t1271436097
+s204
+
+N/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app.dSYM
+t1271436097
+s102
+
+N/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app/Info.plist
+t1271434826
+s604
+
+N/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app/MainWindow.nib
+t1271434826
+s1333
+
+N/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app/MyTableView
+t1271436097
+s21148
+
+N/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app/PkgInfo
+t1271434826
+s8
+
+N/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/MyTableView.LinkFileList
+c000000004BC892D8000000000000026F
+t1271435992
+s623
+
+N/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/MyTableViewAppDelegate.o
+t1271435993
+s38580
+
+N/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/MyTableViewController.o
+t1271436097
+s41896
+
+N/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/main.o
+t1271435993
+s6080
+
+N/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/main.m
+c0000000049EE3D42000000000000016B
+t1240350018
+s363
+i<UIKit/UIKit.h>
+
+N/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/Classes/MyTableViewAppDelegate.h
+c0000000049F79AB5000000000000013E
+t1240963765
+s318
+i<UIKit/UIKit.h>
+
+N/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/Classes/MyTableViewAppDelegate.m
+c000000004AB7D4FF00000000000002F1
+t1253561599
+s753
+i"MyTableViewAppDelegate.h"
+i"MyTableViewController.h"
+
+N/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/Classes/MyTableViewController.h
+c0000000049F79ABC000000000000016F
+t1240963772
+s367
+i<UIKit/UIKit.h>
+
+N/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/Classes/MyTableViewController.m
+c000000004BC891580000000000000DE2
+t1271435608
+s3554
+i"MyTableViewController.h"
+
+N/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/MainWindow.xib
+c0000000049EE3D420000000000001D0F
+t1240350018
+s7439
+
+N/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/MyTableView_Prefix.pch
+c0000000049EE3D4200000000000000BF
+t1240350018
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/MyTableView.app
+t1271435507
+s204
+
+N/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/MyTableView.app.dSYM
+t1271435507
+s102
+
+N/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/MyTableView.app/Info.plist
+t1271434826
+s604
+
+N/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/MyTableView.app/MainWindow.nib
+t1271434826
+s1333
+
+N/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/MyTableView.app/MyTableView
+t1271435507
+s21212
+
+N/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/MyTableView.app/PkgInfo
+t1271434826
+s8
+
+N/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/MyTableView.LinkFileList
+c000000004BC88E4A0000000000000212
+t1271434826
+s530
+
+N/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/MyTableViewAppDelegate.o
+t1271434827
+s38520
+
+N/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/MyTableViewController.o
+t1271435507
+s42928
+
+N/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/main.o
+t1271434827
+s6020
+
+N/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/main.m
+c0000000049EE3D42000000000000016B
+t1240350018
+s363
+i<UIKit/UIKit.h>
+
+N/var/folders/LM/LMUGfh8eEm0fXN3aQR8NPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyTableView_Prefix-acuajykdevuhxpgotwdonieswnpq/MyTableView_Prefix.pch.gch
+t1271434827
+s13026768
+
+N/var/folders/LM/LMUGfh8eEm0fXN3aQR8NPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyTableView_Prefix-bqmzkbaizdzioxdioqvaxhurmtcf/MyTableView_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/LM/LMUGfh8eEm0fXN3aQR8NPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyTableView_Prefix-dfpemvgvkakmyxaycpcvtxwxveqt/MyTableView_Prefix.pch.gch
+t1271435992
+s13026768
+
+NInfo.plist
+c0000000049EE3D420000000000000381
+t1240350018
+s897
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies293128898#293128898#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/MyTableViewAppDelegate.o "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/Classes/MyTableViewAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s293128793.070834
+e293128793.193288
+r1
+xCompileC
+xbuild/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/MyTableViewAppDelegate.o
+x/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/Classes/MyTableViewAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@145"Compile /Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/Classes/MyTableViewAppDelegate.m293128793#293128793#0(0"0(0#0#137"/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/Classes/MyTableViewAppDelegate.m4300911832#2731"    cd "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-generated-files.hmap" "-I/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-own-target-headers.hmap" "-I/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-all-target-headers.hmap" -iquote "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-project-headers.hmap" "-F/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator" "-I/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/include" "-I/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/DerivedSources/i386" "-I/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/DerivedSources" -include /var/folders/LM/LMUGfh8eEm0fXN3aQR8NPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyTableView_Prefix-dfpemvgvkakmyxaycpcvtxwxveqt/MyTableView_Prefix.pch -c "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/Classes/MyTableViewAppDelegate.m" -o "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/MyTableViewAppDelegate.o"0#
+
+CCompileC build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/MyTableViewAppDelegate.o "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/Classes/MyTableViewAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s293127627.426993
+e293127627.532806
+r1
+xCompileC
+xbuild/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/MyTableViewAppDelegate.o
+x/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/Classes/MyTableViewAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@114"Compile /Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/Classes/MyTableViewAppDelegate.m293127627#293127627#0(0"0(0#0#106"/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/Classes/MyTableViewAppDelegate.m4300911832#2390"    cd "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-generated-files.hmap" "-I/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-own-target-headers.hmap" "-I/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-all-target-headers.hmap" -iquote "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-project-headers.hmap" "-F/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator" "-I/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/include" "-I/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/DerivedSources/i386" "-I/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/DerivedSources" -include /var/folders/LM/LMUGfh8eEm0fXN3aQR8NPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyTableView_Prefix-acuajykdevuhxpgotwdonieswnpq/MyTableView_Prefix.pch -c "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/Classes/MyTableViewAppDelegate.m" -o "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/MyTableViewAppDelegate.o"0#
+
+CCompileC build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/MyTableViewController.o "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/Classes/MyTableViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s293128897.169357
+e293128897.369300
+r1
+xCompileC
+xbuild/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/MyTableViewController.o
+x/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/Classes/MyTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@144"Compile /Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/Classes/MyTableViewController.m293128897#293128897#0(0"0(0#0#136"/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/Classes/MyTableViewController.m4300911832#2729"    cd "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-generated-files.hmap" "-I/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-own-target-headers.hmap" "-I/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-all-target-headers.hmap" -iquote "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-project-headers.hmap" "-F/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator" "-I/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/include" "-I/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/DerivedSources/i386" "-I/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/DerivedSources" -include /var/folders/LM/LMUGfh8eEm0fXN3aQR8NPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyTableView_Prefix-dfpemvgvkakmyxaycpcvtxwxveqt/MyTableView_Prefix.pch -c "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/Classes/MyTableViewController.m" -o "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/MyTableViewController.o"0#
+
+CCompileC build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/MyTableViewController.o "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/Classes/MyTableViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s293128307.260572
+e293128307.502139
+r1
+xCompileC
+xbuild/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/MyTableViewController.o
+x/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/Classes/MyTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@113"Compile /Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/Classes/MyTableViewController.m293128307#293128307#0(0"0(0#0#105"/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/Classes/MyTableViewController.m4300911832#2388"    cd "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-generated-files.hmap" "-I/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-own-target-headers.hmap" "-I/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-all-target-headers.hmap" -iquote "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-project-headers.hmap" "-F/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator" "-I/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/include" "-I/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/DerivedSources/i386" "-I/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/DerivedSources" -include /var/folders/LM/LMUGfh8eEm0fXN3aQR8NPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyTableView_Prefix-acuajykdevuhxpgotwdonieswnpq/MyTableView_Prefix.pch -c "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/Classes/MyTableViewController.m" -o "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/MyTableViewController.o"0#
+
+CCompileC build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/main.o "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s293128793.069312
+e293128793.123159
+r1
+xCompileC
+xbuild/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/main.o
+x/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@119"Compile /Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/main.m293128793#293128793#0(0"0(0#0#111"/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/main.m4300911832#2687"    cd "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-generated-files.hmap" "-I/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-own-target-headers.hmap" "-I/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-all-target-headers.hmap" -iquote "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-project-headers.hmap" "-F/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator" "-I/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/include" "-I/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/DerivedSources/i386" "-I/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/DerivedSources" -include /var/folders/LM/LMUGfh8eEm0fXN3aQR8NPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyTableView_Prefix-dfpemvgvkakmyxaycpcvtxwxveqt/MyTableView_Prefix.pch -c "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/main.m" -o "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/main.o "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s293127627.425446
+e293127627.551314
+r1
+xCompileC
+xbuild/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/main.o
+x/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/main.m293127627#293127627#0(0"0(0#0#80"/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/main.m4300911832#2346"    cd "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-generated-files.hmap" "-I/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-own-target-headers.hmap" "-I/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-all-target-headers.hmap" -iquote "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-project-headers.hmap" "-F/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator" "-I/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/include" "-I/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/DerivedSources/i386" "-I/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/DerivedSources" -include /var/folders/LM/LMUGfh8eEm0fXN3aQR8NPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyTableView_Prefix-acuajykdevuhxpgotwdonieswnpq/MyTableView_Prefix.pch -c "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/main.m" -o "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/MainWindow.xib"
+s293127626.491191
+e293127626.762385
+r1
+xCompileXIB
+x/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib293127626#293127626#0(0"0(0#0#88"/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/MainWindow.xib4300911832#597"    cd "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/MyTableView.app/MainWindow.nib" "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/MainWindow.xib"0#
+
+CGenerateDSYMFile "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app.dSYM" "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app/MyTableView"
+s293128897.393265
+e293128897.409748
+r1
+xGenerateDSYMFile
+x/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app.dSYM
+x/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app/MyTableView
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/MyTableView.app.dSYM build/Debug-iphonesimulator/MyTableView.app/MyTableView293128897#293128897#0(0"0(0#0#160"/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app/MyTableView4300911832#599"    cd "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app/MyTableView" -o "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app.dSYM"0#
+
+CGenerateDSYMFile "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/MyTableView.app.dSYM" "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/MyTableView.app/MyTableView"
+s293128307.616134
+e293128307.641717
+r1
+xGenerateDSYMFile
+x/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/MyTableView.app.dSYM
+x/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/MyTableView.app/MyTableView
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/MyTableView.app.dSYM build/Debug-iphonesimulator/MyTableView.app/MyTableView293128307#293128307#0(0"0(0#0#129"/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/MyTableView.app/MyTableView4300911832#506"    cd "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/MyTableView.app/MyTableView" -o "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/MyTableView.app.dSYM"0#
+
+CLd "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app/MyTableView" normal i386
+s293128897.369401
+e293128897.393156
+r1
+xLd
+x/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app/MyTableView
+xnormal
+xi386
+lSLF07#2@165"Link /Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app/MyTableView293128897#293128897#0(0"0(0#0#0"4300911832#1224"    cd "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk "-L/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator" "-F/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator" -filelist "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/MyTableView.LinkFileList" -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app/MyTableView"0#
+
+CLd "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/MyTableView.app/MyTableView" normal i386
+s293128307.502236
+e293128307.616012
+r1
+xLd
+x/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/MyTableView.app/MyTableView
+xnormal
+xi386
+lSLF07#2@134"Link /Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/MyTableView.app/MyTableView293128307#293128307#0(0"0(0#0#0"4300911832#1069"    cd "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk "-L/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator" "-F/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator" -filelist "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/Objects-normal/i386/MyTableView.LinkFileList" -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/MyTableView.app/MyTableView"0#
+
+CProcessInfoPlistFile "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app/Info.plist" Info.plist
+r0
+
+CProcessInfoPlistFile "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/MyTableView.app/Info.plist" Info.plist
+s293127626.479946
+e293127626.491091
+r1
+xProcessInfoPlistFile
+x/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/MyTableView.app/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist293127626#293127626#0(0"0(0#0#84"/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/Info.plist4300911832#590"    cd "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/MyTableView.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/MyTableView.app/Info.plist"0#
+
+CProcessPCH /var/folders/LM/LMUGfh8eEm0fXN3aQR8NPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyTableView_Prefix-acuajykdevuhxpgotwdonieswnpq/MyTableView_Prefix.pch.gch MyTableView_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s293127626.762520
+e293127627.425298
+r1
+xProcessPCH
+x/var/folders/LM/LMUGfh8eEm0fXN3aQR8NPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyTableView_Prefix-acuajykdevuhxpgotwdonieswnpq/MyTableView_Prefix.pch.gch
+xMyTableView_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile MyTableView_Prefix.pch293127626#293127627#0(0"0(0#0#96"/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/MyTableView_Prefix.pch4300911832#2197"    cd "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-generated-files.hmap" "-I/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-own-target-headers.hmap" "-I/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-all-target-headers.hmap" -iquote "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-project-headers.hmap" "-F/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator" "-I/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/include" "-I/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/DerivedSources/i386" "-I/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/DerivedSources" -c "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/MyTableView_Prefix.pch" -o /var/folders/LM/LMUGfh8eEm0fXN3aQR8NPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyTableView_Prefix-acuajykdevuhxpgotwdonieswnpq/MyTableView_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/LM/LMUGfh8eEm0fXN3aQR8NPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyTableView_Prefix-bqmzkbaizdzioxdioqvaxhurmtcf/MyTableView_Prefix.pch.gch MyTableView_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/LM/LMUGfh8eEm0fXN3aQR8NPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyTableView_Prefix-dfpemvgvkakmyxaycpcvtxwxveqt/MyTableView_Prefix.pch.gch MyTableView_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s293128792.362311
+e293128793.069143
+r1
+xProcessPCH
+x/var/folders/LM/LMUGfh8eEm0fXN3aQR8NPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyTableView_Prefix-dfpemvgvkakmyxaycpcvtxwxveqt/MyTableView_Prefix.pch.gch
+xMyTableView_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile MyTableView_Prefix.pch293128792#293128793#0(0"0(0#0#127"/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/MyTableView_Prefix.pch8740694624682992640#2507"    cd "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-generated-files.hmap" "-I/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-own-target-headers.hmap" "-I/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-all-target-headers.hmap" -iquote "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/MyTableView-project-headers.hmap" "-F/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator" "-I/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/include" "-I/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/DerivedSources/i386" "-I/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/MyTableView.build/Debug-iphonesimulator/MyTableView.build/DerivedSources" -c "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/MyTableView_Prefix.pch" -o /var/folders/LM/LMUGfh8eEm0fXN3aQR8NPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyTableView_Prefix-dfpemvgvkakmyxaycpcvtxwxveqt/MyTableView_Prefix.pch.gch0#
+
+CTouch "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app"
+s293128897.409845
+e293128897.412401
+r1
+xTouch
+x/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app
+lSLF07#2@154"Touch /Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app293128897#293128897#0(0"0(0#0#0"4300911832#418"    cd "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/turner/iPhoneDevelopment/Play/iPad/HelloPopover/Helpful/Stanford - CS193p - Lecture 8 - TableView/build/Debug-iphonesimulator/MyTableView.app"0#
+
+CTouch "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/MyTableView.app"
+s293128307.641807
+e293128307.647875
+r1
+xTouch
+x/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/MyTableView.app
+lSLF07#2@123"Touch /Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/MyTableView.app293128307#293128307#0(0"0(0#0#0"4300911832#356"    cd "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/turner/iPhoneDevelopment/Stanford_CS_193P/Lecture 8/08-MyTableView/build/Debug-iphonesimulator/MyTableView.app"0#
+

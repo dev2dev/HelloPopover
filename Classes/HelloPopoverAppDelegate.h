@@ -11,12 +11,12 @@
 @class HelloPopoverViewController;
 
 @interface HelloPopoverAppDelegate : NSObject <UIApplicationDelegate> {
-    UIWindow *window;
-    HelloPopoverViewController *viewController;
+    UIWindow					*_window;
+    HelloPopoverViewController	*_viewController;
 }
 
-@property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet HelloPopoverViewController *viewController;
+@property(nonatomic,retain)IBOutlet UIWindow					*window;
+@property(nonatomic,retain)IBOutlet HelloPopoverViewController	*viewController;
 
 @end
 
