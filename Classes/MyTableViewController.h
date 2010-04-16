@@ -14,7 +14,7 @@
 @property(nonatomic,retain)NSMutableArray *instructors;
 @property(nonatomic,retain)NSMutableArray *teachingAssistants;
 @property(nonatomic,retain)NSMutableArray *guestLecturers;
-@property(nonatomic,retain)UIPopoverController *poController;
+@property(nonatomic,retain)UIPopoverController *popoverController;
 
 - (NSMutableArray *)namesForSection:(NSInteger)section;
 - (NSString *)nameForIndexPath:(NSIndexPath *)indexPath;

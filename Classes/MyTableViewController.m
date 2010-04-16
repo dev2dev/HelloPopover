@@ -15,7 +15,7 @@ enum {
 @synthesize instructors = _instructors;
 @synthesize teachingAssistants = _teachingAssistants;
 @synthesize guestLecturers = _guestLecturers;
-@synthesize poController = _poController;
+@synthesize popoverController = _poController;
 
 #pragma mark -
 #pragma mark My TableView Controller - Lifecycle Methods
@@ -130,7 +130,7 @@ enum {
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 	
-//	[self.poController dismissPopoverAnimated:YES];
+	[self.popoverController dismissPopoverAnimated:YES];
 }
 
 @end

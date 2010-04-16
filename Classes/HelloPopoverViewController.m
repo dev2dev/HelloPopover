@@ -11,7 +11,7 @@
 
 @implementation HelloPopoverViewController
 
-@synthesize popOverController = _poController;
+@synthesize popoverController = _poController;
 @synthesize toolbar = _toolbar;
 @synthesize toolbarButton = _toolbarButton;
 @synthesize detailItem = _detailItem;
@@ -50,18 +50,19 @@
 	
 	
     MyTableViewController * myTableViewController = [[[MyTableViewController alloc] initWithStyle:UITableViewStylePlain] autorelease];
-	myTableViewController.poController = self.popOverController;
 	myTableViewController.contentSizeForViewInPopover = CGSizeMake(256, 512);
-	self.popOverController = [[[UIPopoverController alloc] initWithContentViewController:myTableViewController] autorelease];
-	
-	self.popOverController.delegate = self;
-	
+
+	self.popoverController = [[[UIPopoverController alloc] initWithContentViewController:myTableViewController] autorelease];
+	myTableViewController.popoverController = self.popoverController;
+
+	self.popoverController.delegate = self;
+
 }
 
 - (void)viewDidUnload {
 	
 	NSLog(@"Hello Popover VC - view Did Unload");
-	self.popOverController = nil;
+	self.popoverController = nil;
 	
 }
 
@@ -92,13 +93,13 @@
 
 - (IBAction)push:(id)sender {
 
-	if (self.popOverController.isPopoverVisible) {
+	if (self.popoverController.isPopoverVisible) {
 		
 		return;
 		
 	} // if (self.poController.isPopoverVisible)
 	
-	[self.popOverController presentPopoverFromBarButtonItem:sender 
+	[self.popoverController presentPopoverFromBarButtonItem:sender 
 								   permittedArrowDirections:UIPopoverArrowDirectionAny 
 												   animated:YES];
 	
