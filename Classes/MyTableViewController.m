@@ -12,22 +12,22 @@ enum {
 
 @implementation MyTableViewController
 
-@synthesize instructors = _instructors;
-@synthesize teachingAssistants = _teachingAssistants;
-@synthesize guestLecturers = _guestLecturers;
-@synthesize popoverController = _poController;
-@synthesize detailDescriptionLabel = _detailDescriptionLabel;
+@synthesize instructors = m_instructors;
+@synthesize teachingAssistants = m_teachingAssistants;
+@synthesize guestLecturers = m_guestLecturers;
+@synthesize popoverController = m_popoverController;
+@synthesize detailDescriptionLabel = m_detailDescriptionLabel;
 
 #pragma mark -
 #pragma mark My TableView Controller - Lifecycle Methods
 
 - (void)dealloc {
 	
-    [_instructors			release], _instructors = nil;
-    [_teachingAssistants	release], _teachingAssistants = nil;
-    [_guestLecturers		release], _guestLecturers = nil;
-    [_poController			release], _poController = nil;
-    [_detailDescriptionLabel release], _detailDescriptionLabel = nil;
+    [m_instructors release], m_instructors = nil;
+    [m_teachingAssistants release], m_teachingAssistants = nil;
+    [m_guestLecturers release], m_guestLecturers = nil;
+    [m_popoverController release], m_popoverController = nil;
+    [m_detailDescriptionLabel release], m_detailDescriptionLabel = nil;
     
     [super dealloc];
 }

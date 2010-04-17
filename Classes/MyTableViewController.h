@@ -6,12 +6,12 @@
 
 @interface MyTableViewController : UITableViewController {
 	
-    NSMutableArray *_instructors;
-    NSMutableArray *_teachingAssistants;
-    NSMutableArray *_guestLecturers;
+    NSMutableArray *m_instructors;
+    NSMutableArray *m_teachingAssistants;
+    NSMutableArray *m_guestLecturers;
 	
-	UIPopoverController	*_poController;
-	UILabel				*_detailDescriptionLabel;
+	UIPopoverController	*m_popoverController;
+	UILabel				*m_detailDescriptionLabel;
 }
 
 @property(nonatomic,retain)NSMutableArray *instructors;

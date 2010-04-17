@@ -11,26 +11,23 @@
 
 @implementation HelloPopoverViewController
 
-@synthesize popoverController = _poController;
-@synthesize toolbar = _toolbar;
-@synthesize toolbarButton = _toolbarButton;
-@synthesize detailItem = _detailItem;
-@synthesize detailDescriptionLabel = _detailDescriptionLabel;
+@synthesize popoverController = m_popoverController;
+@synthesize toolbar = m_toolbar;
+@synthesize toolbarButton = m_toolbarButton;
+@synthesize detailItem = m_detailItem;
+@synthesize detailDescriptionLabel = m_detailDescriptionLabel;
 
 - (void)dealloc {
 	
-    [_poController				release], _poController = nil;
+    [m_popoverController release], m_popoverController = nil;
+    [m_toolbar release], m_toolbar = nil;
+    [m_toolbarButton release], m_toolbarButton = nil;
+    [m_detailItem release], m_detailItem = nil;
+    [m_detailDescriptionLabel release], m_detailDescriptionLabel = nil;
 	
-    [_toolbar					release], _toolbar = nil;
-    self.toolbar				= nil;
-	
-    [_toolbarButton release], _toolbarButton = nil;
+    self.toolbar = nil;
     self.toolbarButton = nil;
-	
-    [_detailItem				release], _detailItem = nil;
-	
-    [_detailDescriptionLabel	release], _detailDescriptionLabel = nil;	
-    self.detailDescriptionLabel	= nil;
+    self.detailDescriptionLabel = nil;
 	
     [super dealloc];
 }
@@ -47,7 +44,9 @@
 	myTableViewController.popoverController = self.popoverController;
 	myTableViewController.detailDescriptionLabel = self.detailDescriptionLabel;
 	self.popoverController.delegate = self;
-
+	
+//	self.wantsFullScreenLayout = YES;
+	
 }
 
 - (void)viewDidUnload {

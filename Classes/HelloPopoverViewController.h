@@ -10,12 +10,12 @@
 
 @interface HelloPopoverViewController : UIViewController <UIPopoverControllerDelegate> {
 
-	UIPopoverController	*_poController;
-    UIToolbar			*_toolbar;
-	UIBarButtonItem		*_toolbarButton;
+	UIPopoverController	*m_popoverController;
+    UIToolbar			*m_toolbar;
+	UIBarButtonItem		*m_toolbarButton;
 	
-    id					_detailItem;
-    UILabel				*_detailDescriptionLabel;
+    id					m_detailItem;
+    UILabel				*m_detailDescriptionLabel;
 	
 }
 
@@ -24,6 +24,7 @@
 @property(nonatomic,retain)IBOutlet UIBarButtonItem *toolbarButton;
 @property(nonatomic,retain)id detailItem;
 @property(nonatomic,retain)IBOutlet UILabel *detailDescriptionLabel;
+
 
 - (IBAction)deployPopover:(id)sender;
 
