@@ -8,6 +8,7 @@
 
 #import "HelloPopoverViewController.h"
 #import "MyTableViewController.h"
+#import "DuglaTableViewController.h"
 
 @implementation HelloPopoverViewController
 
@@ -37,15 +38,21 @@
 	
     [super viewDidLoad];
 	
-    MyTableViewController * myTableViewController = [[[MyTableViewController alloc] initWithStyle:UITableViewStylePlain] autorelease];
+//    MyTableViewController * myTableViewController = [[[MyTableViewController alloc] initWithStyle:UITableViewStylePlain] autorelease];
+//	myTableViewController.contentSizeForViewInPopover = CGSizeMake(256, 512);
+//	
+//	self.popoverController = [[[UIPopoverController alloc] initWithContentViewController:myTableViewController] autorelease];
+//	myTableViewController.popoverController = self.popoverController;
+//	myTableViewController.detailDescriptionLabel = self.detailDescriptionLabel;
+//	self.popoverController.delegate = self;
+	
+    DuglaTableViewController * myTableViewController = [[[DuglaTableViewController alloc] initWithStyle:UITableViewStylePlain] autorelease];
 	myTableViewController.contentSizeForViewInPopover = CGSizeMake(256, 512);
-
+	
 	self.popoverController = [[[UIPopoverController alloc] initWithContentViewController:myTableViewController] autorelease];
 	myTableViewController.popoverController = self.popoverController;
 	myTableViewController.detailDescriptionLabel = self.detailDescriptionLabel;
 	self.popoverController.delegate = self;
-	
-//	self.wantsFullScreenLayout = YES;
 	
 }
 
