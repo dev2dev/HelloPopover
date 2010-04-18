@@ -27,11 +27,11 @@ enum {
 
 - (void)dealloc {
 	
-    [m_instructors release], m_instructors = nil;
-    [m_teachingAssistants release], m_teachingAssistants = nil;
-    [m_guestLecturers release], m_guestLecturers = nil;
-    [m_popoverController release], m_popoverController = nil;
-    [m_detailDescriptionLabel release], m_detailDescriptionLabel = nil;
+    [m_instructors				release], m_instructors = nil;
+    [m_teachingAssistants		release], m_teachingAssistants = nil;
+    [m_guestLecturers			release], m_guestLecturers = nil;
+    [m_popoverController		release], m_popoverController = nil;
+    [m_detailDescriptionLabel	release], m_detailDescriptionLabel = nil;
     
     [super dealloc];
 }
@@ -92,10 +92,14 @@ enum {
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 	
 	return 3;
+//	return 1;
+	
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+	
     return [[self namesForSection:section] count];
+//	return 128;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -131,7 +135,7 @@ enum {
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+//    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 	
 	self.detailDescriptionLabel.text = 
 	[NSString stringWithFormat:@"You Selected %@", [self nameForIndexPath:indexPath]];
@@ -139,8 +143,9 @@ enum {
 	[self.popoverController dismissPopoverAnimated:YES];
 }
 
-// FROM DEFAULT IMPLEMENTATION. 
+// THIS IS THE DEFAULT IMPLEMENTATION PROVIDED BY THE TEMPLATE
 //- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+//	
 //    // Navigation logic may go here. Create and push another view controller.
 //	/*
 //	 <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];

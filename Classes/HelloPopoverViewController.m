@@ -7,7 +7,6 @@
 //
 
 #import "HelloPopoverViewController.h"
-#import "MyTableViewController.h"
 #import "DuglaTableViewController.h"
 
 @implementation HelloPopoverViewController
@@ -17,18 +16,22 @@
 @synthesize toolbarButton = m_toolbarButton;
 @synthesize detailItem = m_detailItem;
 @synthesize detailDescriptionLabel = m_detailDescriptionLabel;
+@synthesize tableViewController = m_tableViewController;
 
 - (void)dealloc {
 	
-    [m_popoverController release], m_popoverController = nil;
-    [m_toolbar release], m_toolbar = nil;
-    [m_toolbarButton release], m_toolbarButton = nil;
-    [m_detailItem release], m_detailItem = nil;
-    [m_detailDescriptionLabel release], m_detailDescriptionLabel = nil;
+    [m_popoverController		release], m_popoverController = nil;
+    [m_detailItem				release], m_detailItem = nil;
+
+    [m_toolbar					release], m_toolbar = nil;
+    [m_toolbarButton			release], m_toolbarButton = nil;
+    [m_detailDescriptionLabel	release], m_detailDescriptionLabel = nil;
+    [m_tableViewController		release], m_tableViewController = nil;
 	
-    self.toolbar = nil;
-    self.toolbarButton = nil;
+    self.toolbar				= nil;
+    self.toolbarButton			= nil;
     self.detailDescriptionLabel = nil;
+	self.tableViewController	= nil;
 	
     [super dealloc];
 }
@@ -45,13 +48,22 @@
 //	myTableViewController.popoverController = self.popoverController;
 //	myTableViewController.detailDescriptionLabel = self.detailDescriptionLabel;
 //	self.popoverController.delegate = self;
+
 	
-    DuglaTableViewController * myTableViewController = [[[DuglaTableViewController alloc] initWithStyle:UITableViewStylePlain] autorelease];
+	
+	
+	
+    DuglaTableViewController * myTableViewController = 
+//	[[[DuglaTableViewController alloc] initWithStyle:UITableViewStylePlain] autorelease];
+	[[[DuglaTableViewController alloc] initWithNibName:@"DuglaTableView" bundle:nil] autorelease];
+	
 	myTableViewController.contentSizeForViewInPopover = CGSizeMake(256, 512);
-	
+		
+ 	
 	self.popoverController = [[[UIPopoverController alloc] initWithContentViewController:myTableViewController] autorelease];
 	myTableViewController.popoverController = self.popoverController;
 	myTableViewController.detailDescriptionLabel = self.detailDescriptionLabel;
+	
 	self.popoverController.delegate = self;
 	
 }
