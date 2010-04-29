@@ -36,6 +36,21 @@
     [super dealloc];
 }
 
+
+//- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+//	
+//	self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+//	
+//    if (nil != self) {
+//				
+//		self.wantsFullScreenLayout = YES;
+//		
+//    }
+//	
+//    return self;
+//	
+//}
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
 	
@@ -65,6 +80,10 @@
 	myTableViewController.detailDescriptionLabel = self.detailDescriptionLabel;
 	
 	self.popoverController.delegate = self;
+	
+	
+	self.wantsFullScreenLayout = YES;
+	[self.view setNeedsLayout];
 	
 }
 

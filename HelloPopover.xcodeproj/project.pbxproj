@@ -55,12 +55,12 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				319DEE42117A317000B758C9 /* DuglaTableViewController.h */,
+				319DEE43117A317000B758C9 /* DuglaTableViewController.m */,
 				28D7ACF60DDB3853001CB0EB /* HelloPopoverViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* HelloPopoverViewController.m */,
 				1D3623240D0F684500981E51 /* HelloPopoverAppDelegate.h */,
 				1D3623250D0F684500981E51 /* HelloPopoverAppDelegate.m */,
-				319DEE42117A317000B758C9 /* DuglaTableViewController.h */,
-				319DEE43117A317000B758C9 /* DuglaTableViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -97,9 +97,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				319DEE44117A317000B758C9 /* DuglaTableView.xib */,
-				31FD9C3F11779EA200955B1E /* HelloPopoverViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				31FD9C3F11779EA200955B1E /* HelloPopoverViewController.xib */,
+				319DEE44117A317000B758C9 /* DuglaTableView.xib */,
 				8D1107310486CEB800E47090 /* HelloPopover-Info.plist */,
 			);
 			name = Resources;
