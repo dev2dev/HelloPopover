@@ -36,51 +36,19 @@
     [super dealloc];
 }
 
-
-//- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-//	
-//	self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-//	
-//    if (nil != self) {
-//				
-//		self.wantsFullScreenLayout = YES;
-//		
-//    }
-//	
-//    return self;
-//	
-//}
-
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
 	
-    [super viewDidLoad];
+    [super viewDidLoad];	
 	
-//    MyTableViewController * myTableViewController = [[[MyTableViewController alloc] initWithStyle:UITableViewStylePlain] autorelease];
-//	myTableViewController.contentSizeForViewInPopover = CGSizeMake(256, 512);
-//	
-//	self.popoverController = [[[UIPopoverController alloc] initWithContentViewController:myTableViewController] autorelease];
-//	myTableViewController.popoverController = self.popoverController;
-//	myTableViewController.detailDescriptionLabel = self.detailDescriptionLabel;
-//	self.popoverController.delegate = self;
-
+    self.tableViewController = [[[DuglaTableViewController alloc] initWithNibName:@"DuglaTableView" bundle:nil] autorelease];
+	self.tableViewController.contentSizeForViewInPopover = CGSizeMake(256, 512);
 	
-	
-	
-	
-    DuglaTableViewController * myTableViewController = 
-//	[[[DuglaTableViewController alloc] initWithStyle:UITableViewStylePlain] autorelease];
-	[[[DuglaTableViewController alloc] initWithNibName:@"DuglaTableView" bundle:nil] autorelease];
-	
-	myTableViewController.contentSizeForViewInPopover = CGSizeMake(256, 512);
-		
- 	
-	self.popoverController = [[[UIPopoverController alloc] initWithContentViewController:myTableViewController] autorelease];
-	myTableViewController.popoverController = self.popoverController;
-	myTableViewController.detailDescriptionLabel = self.detailDescriptionLabel;
+	self.popoverController = [[[UIPopoverController alloc] initWithContentViewController:self.tableViewController] autorelease];
+	self.tableViewController.popoverController = self.popoverController;
+	self.tableViewController.detailDescriptionLabel = self.detailDescriptionLabel;
 	
 	self.popoverController.delegate = self;
-	
 	
 	self.wantsFullScreenLayout = YES;
 	[self.view setNeedsLayout];
