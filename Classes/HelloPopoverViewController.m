@@ -7,7 +7,7 @@
 //
 
 #import "HelloPopoverViewController.h"
-#import "DuglaTableViewController.h"
+#import "PanoramaTableViewController.h"
 
 @implementation HelloPopoverViewController
 
@@ -41,7 +41,7 @@
 	
     [super viewDidLoad];	
 	
-    self.tableViewController = [[[DuglaTableViewController alloc] initWithNibName:@"DuglaTableView" bundle:nil] autorelease];
+    self.tableViewController = [[[PanoramaTableViewController alloc] initWithNibName:@"PanoramaTableViewController" bundle:nil] autorelease];
 	self.tableViewController.contentSizeForViewInPopover = CGSizeMake(256, 512);
 	
 	self.popoverController = [[[UIPopoverController alloc] initWithContentViewController:self.tableViewController] autorelease];
@@ -49,9 +49,6 @@
 	self.tableViewController.detailDescriptionLabel = self.detailDescriptionLabel;
 	
 	self.popoverController.delegate = self;
-	
-	self.wantsFullScreenLayout = YES;
-	[self.view setNeedsLayout];
 	
 }
 
@@ -80,10 +77,7 @@
 
 - (void)didReceiveMemoryWarning {
 	
-	// Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
-	
-	// Release any cached data, images, etc that aren't in use.
 }
 
 - (IBAction)deployPopover:(id)sender {

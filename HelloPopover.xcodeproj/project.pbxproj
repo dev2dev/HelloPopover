@@ -14,8 +14,9 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* HelloPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* HelloPopoverViewController.m */; };
-		319DEE45117A317000B758C9 /* DuglaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 319DEE43117A317000B758C9 /* DuglaTableViewController.m */; };
-		319DEE46117A317000B758C9 /* DuglaTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 319DEE44117A317000B758C9 /* DuglaTableView.xib */; };
+		31505B5311C82F1B00295B94 /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31505B5211C82F1B00295B94 /* settings.plist */; };
+		319DEE45117A317000B758C9 /* PanoramaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 319DEE43117A317000B758C9 /* PanoramaTableViewController.m */; };
+		319DEE46117A317000B758C9 /* PanoramaTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 319DEE44117A317000B758C9 /* PanoramaTableViewController.xib */; };
 		31FD9C4011779EA200955B1E /* HelloPopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31FD9C3F11779EA200955B1E /* HelloPopoverViewController.xib */; };
 /* End PBXBuildFile section */
 
@@ -30,9 +31,10 @@
 		28D7ACF60DDB3853001CB0EB /* HelloPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloPopoverViewController.h; sourceTree = "<group>"; };
 		28D7ACF70DDB3853001CB0EB /* HelloPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloPopoverViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		319DEE42117A317000B758C9 /* DuglaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuglaTableViewController.h; sourceTree = "<group>"; };
-		319DEE43117A317000B758C9 /* DuglaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuglaTableViewController.m; sourceTree = "<group>"; };
-		319DEE44117A317000B758C9 /* DuglaTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DuglaTableView.xib; path = Classes/DuglaTableView.xib; sourceTree = "<group>"; };
+		31505B5211C82F1B00295B94 /* settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = settings.plist; sourceTree = "<group>"; };
+		319DEE42117A317000B758C9 /* PanoramaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoramaTableViewController.h; sourceTree = "<group>"; };
+		319DEE43117A317000B758C9 /* PanoramaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanoramaTableViewController.m; sourceTree = "<group>"; };
+		319DEE44117A317000B758C9 /* PanoramaTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PanoramaTableViewController.xib; path = Classes/PanoramaTableViewController.xib; sourceTree = "<group>"; };
 		31FD9C3F11779EA200955B1E /* HelloPopoverViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelloPopoverViewController.xib; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* HelloPopover_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloPopover_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* HelloPopover-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HelloPopover-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -55,8 +57,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				319DEE42117A317000B758C9 /* DuglaTableViewController.h */,
-				319DEE43117A317000B758C9 /* DuglaTableViewController.m */,
+				319DEE42117A317000B758C9 /* PanoramaTableViewController.h */,
+				319DEE43117A317000B758C9 /* PanoramaTableViewController.m */,
 				28D7ACF60DDB3853001CB0EB /* HelloPopoverViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* HelloPopoverViewController.m */,
 				1D3623240D0F684500981E51 /* HelloPopoverAppDelegate.h */,
@@ -97,7 +99,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				319DEE44117A317000B758C9 /* DuglaTableView.xib */,
+				31505B5211C82F1B00295B94 /* settings.plist */,
+				319DEE44117A317000B758C9 /* PanoramaTableViewController.xib */,
 				31FD9C3F11779EA200955B1E /* HelloPopoverViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* HelloPopover-Info.plist */,
@@ -159,7 +162,8 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				31FD9C4011779EA200955B1E /* HelloPopoverViewController.xib in Resources */,
-				319DEE46117A317000B758C9 /* DuglaTableView.xib in Resources */,
+				319DEE46117A317000B758C9 /* PanoramaTableViewController.xib in Resources */,
+				31505B5311C82F1B00295B94 /* settings.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,7 +177,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* HelloPopoverAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* HelloPopoverViewController.m in Sources */,
-				319DEE45117A317000B758C9 /* DuglaTableViewController.m in Sources */,
+				319DEE45117A317000B758C9 /* PanoramaTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

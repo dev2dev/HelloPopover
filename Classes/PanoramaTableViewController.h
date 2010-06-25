@@ -1,5 +1,5 @@
 //
-//  DuglaTableViewController.h
+//  PanoramaTableViewController.h
 //  HelloPopover
 //
 //  Created by turner on 4/17/10.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface DuglaTableViewController : UITableViewController {
+@interface PanoramaTableViewController : UITableViewController {
 	
 	UIPopoverController	*m_popoverController;
 	UILabel				*m_detailDescriptionLabel;

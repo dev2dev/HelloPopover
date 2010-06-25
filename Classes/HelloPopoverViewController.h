@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@class DuglaTableViewController;
+@class PanoramaTableViewController;
 @interface HelloPopoverViewController : UIViewController <UIPopoverControllerDelegate> {
 
 	UIPopoverController			*m_popoverController;
@@ -17,7 +17,7 @@
     UIToolbar					*m_toolbar;
 	UIBarButtonItem				*m_toolbarButton;
     UILabel						*m_detailDescriptionLabel;
-	DuglaTableViewController	*m_tableViewController;
+	PanoramaTableViewController	*m_tableViewController;
 	
 }
 
@@ -27,7 +27,7 @@
 @property(nonatomic,retain)IBOutlet UIToolbar					*toolbar;
 @property(nonatomic,retain)IBOutlet UIBarButtonItem				*toolbarButton;
 @property(nonatomic,retain)IBOutlet UILabel						*detailDescriptionLabel;
-@property(nonatomic,retain)IBOutlet DuglaTableViewController	*tableViewController;
+@property(nonatomic,retain)IBOutlet PanoramaTableViewController	*tableViewController;
 
 
 - (IBAction)deployPopover:(id)sender;

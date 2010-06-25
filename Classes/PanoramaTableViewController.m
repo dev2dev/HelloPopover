@@ -1,20 +1,17 @@
 //
-//  DuglaTableViewController.m
+//  PanoramaTableViewController.m
 //  HelloPopover
 //
 //  Created by turner on 4/17/10.
 //  Copyright 2010 Douglass Turner Consulting. All rights reserved.
 //
 
-#import "DuglaTableViewController.h"
+#import "PanoramaTableViewController.h"
 
-@implementation DuglaTableViewController
+@implementation PanoramaTableViewController
 
 @synthesize popoverController = m_popoverController;
 @synthesize detailDescriptionLabel = m_detailDescriptionLabel;
-
-#pragma mark -
-#pragma mark Dugla TableView Controller - Lifecycle Methods
 
 - (void)dealloc {
 	
@@ -24,38 +21,57 @@
     [super dealloc];
 }
 
+#pragma mark -
+#pragma mark Panorama TableView Controller - View Lifecycle Methods
+
 - (void)viewDidLoad {
 	
     [super viewDidLoad];
+	
+	self.clearsSelectionOnViewWillAppear = NO;
 
-    // Uncomment the following line to preserve selection between presentations.
-    self.clearsSelectionOnViewWillAppear = NO;
- 
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+	
+	
+}
+
+static BOOL firstTime = YES;
+static int visit = 1;
+- (void)selectTheRowInTheTable {
+
+	NSLog(@"Panorama TableView Controller - select The Row In The Table - visit %d", visit++);
+
+	if (firstTime == YES) {
+		
+		[self.tableView selectRowAtIndexPath:[NSIndexPath indexPathForRow:8 inSection:0] 
+									animated:NO 
+							  scrollPosition:UITableViewScrollPositionTop];
+		
+		NSIndexPath *preselected = [self.tableView indexPathForSelectedRow];
+		
+		NSLog(@"Row %d has been pre-selected", preselected.row);
+		
+		firstTime = NO;
+	}
+
 }
 
 - (void)viewDidAppear:(BOOL)animated {
+	
+	NSLog(@"Panorama TableView Controller - view Did Appear - visit %d", visit++);
+	
     [super viewDidAppear:animated];
-}
+	
+	[self performSelector:@selector(selectTheRowInTheTable) withObject:nil afterDelay:0.0];
 
-- (void)viewWillDisappear:(BOOL)animated {
-    [super viewWillDisappear:animated];
-}
 
-- (void)viewDidDisappear:(BOOL)animated {
-    [super viewDidDisappear:animated];
-}
-
-- (void)viewDidUnload {
-
-	// Do Stuff
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Override to allow orientations other than the default portrait orientation.
+
     return YES;
 }
 
@@ -70,11 +86,15 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 	
-	return 128;
+	NSLog(@"Panorama TableView Controller - tableView:numberOfRowsInSection:");
+	
+	return 64;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 	
+	NSLog(@"Panorama TableView Controller - tableView:cellForRowAtIndexPath: - row %d", indexPath.row);
+		  		  
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"DefaultCell"];
 	
     if (cell == nil) {
@@ -85,13 +105,6 @@
     
     return cell;
 }
-
-- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-	
-	return @"Numbers";
-	
-}
-
 
 #pragma mark -
 #pragma mark UITableView Delegate Methods
@@ -107,10 +120,9 @@
 #pragma mark Memory management
 
 - (void)didReceiveMemoryWarning {
-    // Releases the view if it doesn't have a superview.
+ 
     [super didReceiveMemoryWarning];
     
-    // Relinquish ownership any cached data, images, etc that aren't in use.
 }
 
 @end
